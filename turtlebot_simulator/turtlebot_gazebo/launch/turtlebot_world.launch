@@ -1,6 +1,6 @@
 <launch>
   <arg name="gui"        default="true"/>
-  <arg name="world_file" default="$(find folders)/World/U_world5.world"/>
+  <arg name="world_file" default="$(env TURTLEBOT_GAZEBO_WORLD_FILE)"/>
 
 
   <arg name="base"       value="$(optenv TURTLEBOT_BASE kobuki)"/> <!-- create, roomba -->
